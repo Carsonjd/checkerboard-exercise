@@ -11,9 +11,10 @@ tile.style.paddingBottom = '11.1%';
 tile.display = 'float';
 tile.style.float = 'left';
 if(i%2 === 0){
-tile.style.backgroundColor = 'red';
+tile.style.backgroundColor = 'blue';
 }
-if(i%2 !== 0){
-tile.style.backgroundColor = 'black';
-}
+
 };
+
+var doc = document.getElementsByTagName('body')[0];
+doc.style.background = "linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)";
